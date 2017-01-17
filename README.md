@@ -12,6 +12,7 @@
     line-height: 80px;
     border-radius:10%;
     box-shadow: 5px 5px 2px #888888;
+    overflow: auto;
     background: red; 
     background: -webkit-linear-gradient(left, red , green); 
     background: -o-linear-gradient(right, red, green);
@@ -21,11 +22,12 @@
 #radial{
     height: 80px;
     width: 80px;
-    margin: 10px 600px;
+    margin: 10px 500px;
     text-align: center;
     line-height: 80px;
     border-radius:10%;
     box-shadow: 5px 5px 2px #888888;
+    overflow: auto;
     background: -webkit-radial-gradient(top,circle,red, yellow, green); 
     background: -o-radial-gradient(top,circle,red , yellow,green);
     background: -moz-radial-gradient(top,circle,red , yellow,green);
@@ -34,17 +36,19 @@
 #ellipse {
     height: 80px;
     width: 80px;
-    margin: 10px 700px;
+    margin: 10px 500px;
     text-align: center;
     line-height: 80px;
     border-radius:10%;
     box-shadow: 5px 5px 2px #888888;
-    background: red; 
+    background: red;
+    overflow: auto; 
     background: -webkit-radial-gradient(top, red , yellow, green); 
     background: -o-radial-gradient(top, red, yellow,green);
     background: -moz-radial-gradient(top, red, yellow,green);
     background: radial-gradient(to top, red , yellow,green);
 }
+
 
 </style>
 </head>
