@@ -4,31 +4,32 @@ body {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content:center;
-	justify-content: center;	
+	justify-content: center;
+	
 	}
-.linear { 
+.linear {
 	height: 80px;
-	width: 80px; 
-	line-height: 80px; 
-	text-align: center; 
+	width:80px;
+	line-height: 80px;
+	text-align: center;
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
 	background: -webkit-linear-gradient(left,red,green);
 	} 
 .gradient { 
 	height: 80px;
-	width: 80px; 
-	line-height: 80px; 
-	text-align: center; 
+	width:80px;
+	line-height: 80px;
+	text-align: center;
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
 	background: -webkit-radial-gradient(top,circle,red,yellow,green);
 	} 
 .ellipse { 
 	height: 80px;
-	width: 80px; 
-	line-height: 80px; 
-	text-align: center; 
+	width:80px;
+	line-height: 80px;
+	text-align: center;
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
 	background: -webkit-radial-gradient(top,red,yellow,green);
