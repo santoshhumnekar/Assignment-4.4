@@ -1,8 +1,11 @@
 body { 
 	color: #fff; 
 	font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif; 
-	 } 
-
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:center;
+	justify-content: center;	
+	}
 .linear { 
 	height: 80px;
 	width: 80px; 
@@ -10,8 +13,6 @@ body {
 	text-align: center; 
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
-	margin: 10px 500px;
-	position: absolute;
 	background: -webkit-linear-gradient(left,red,green);
 	} 
 .gradient { 
@@ -21,8 +22,6 @@ body {
 	text-align: center; 
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
-	margin: 10px 600px;
-	position: absolute;
 	background: -webkit-radial-gradient(top,circle,red,yellow,green);
 	} 
 .ellipse { 
@@ -32,7 +31,5 @@ body {
 	text-align: center; 
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #888888;
-	margin: 10px 700px;
-	position: absolute;
 	background: -webkit-radial-gradient(top,red,yellow,green);
 	} 
