@@ -1,0 +1,33 @@
+div { 
+	margin: 10px; 
+	} 
+	.box1 { 
+		background:linear-gradient(to right, red , green); 
+		height: 95px; 
+		width: 95px; 
+		line-height: 95px; 
+		text-align: center; 
+		border-radius: 12px; 
+		box-shadow: 10px 10px 5px #888888; 
+		display: -moz-stack; 
+		} 
+	.box2 { 
+		background: radial-gradient(circle at top, red, yellow, green); 
+		height: 95px; 
+		width: 95px; 
+		line-height: 95px; 
+		text-align: center; 
+		border-radius: 12px; 
+		box-shadow: 10px 10px 5px #888888;
+		display: -moz-stack; 
+		} 
+	.box3 { 
+		background: radial-gradient(ellipse at top, red, yellow, green); 
+		height: 95px; 
+		width: 95px; 
+		line-height: 95px; 
+		text-align: center; 
+		border-radius: 12px; 
+		box-shadow: 10px 10px 5px #888888; 
+		display: -moz-stack; 
+		}
